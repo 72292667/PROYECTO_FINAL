@@ -27,13 +27,38 @@
       }
     }
   </style>
-
   </head>
-  <div>
+  <body>
+     <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="header.php">DELIVERY ANDAHUYLAS</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="header.php">Menu</a></li>
+        <li><a href="promociones.php">Promociones</a></li>
+        <li><a href="nosotros.php">Nosotros</a></li>
+        <li><a href="contacto.php">Contacto</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Salir</a></li>
+      </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
     <footer>
 
     </footer>
-  </div>
+  </body>
 </html>
 <header>
   
