@@ -1,3 +1,6 @@
+
+
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -144,7 +147,7 @@
   <div class="row">
     <div class="col-sm-3">
       <img src="../pagina/img/hamburguesa.png" class="img-responsive" style="width:100%" alt="Image">
-      <button type="button" class="btn btn-primary btn-lg">Agregar</button>
+      <li><a href="../pagina/pedido.php"><span class="glyphicon glyphicon-log-in"></span> Agregar</a></li>
     </div>
     <div class="col-sm-3"> 
       <img src="../pagina/img/hamburguesa.png"class="img-responsive" style="width:100%" alt="Image">
