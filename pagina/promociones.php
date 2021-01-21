@@ -24,7 +24,6 @@
         <li class="active"><a href="header.php">Menu</a></li>
         <li><a href="promociones.php">Promociones</a></li>
         <li><a href="nosotros.php">Nosotros</a></li>
-        <li><a href="contacto.php">Contacto</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Salir</a></li>
@@ -88,25 +87,32 @@
       </p>
     </div>
 
-    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-      <h5 class="text-uppercase">Nuestro Servicio</h5>
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Nuestro Servicio</h5>
 
-        <ul class="list-unstyled mb-0">
-          <li>
-          <a href="Promociones.php" class="text-dark">Promociones</a>
-          </li>
-          <li>
-          <a href="nosotros.php" class="text-dark">Nosotros</a>
-          </li>
-          <li>
-          <a href="contacto.pho" class="text-dark">Contacto</a>
-         </li>
-        </ul>
+                <ul class="list-unstyled mb-0">
+                <li>
+                <a href="Promociones.php" class="text-dark">Promociones</a>
+                </li>
+                <li>
+                <a href="nosotros.php" class="text-dark">Nosotros</a>
+                </li>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+         <h5 class="text-uppercase mb-0">encuentranos en:</h5>
+
+                <ul class="list-unstyled">
+                <li>
+                    <a href="https://web.facebook.com" class="text-dark">FACEBOOK</a>
+                </li>
+                <li>
+                    <a href="http://deliveryandahuaylas.rf.gd" class="text-dark">PÁGINA WEB</a>
+                </li>
+                </ul>
+      </div>
      </div>
-    </div>
-  </div>
-
-  </footer>
+   </div>
+   </footer>
 </body>
-
 </html>

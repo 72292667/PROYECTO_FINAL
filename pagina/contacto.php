@@ -33,10 +33,49 @@
   </div>
 </nav>
 
+<footer class="bg-light text-center text-lg-start">
 
-    <footer class="container-fluid text-center">
-        <p>Footer Text</p>
-    </footer>
+<div class="container p-4">
+
+  <div class="row">
+    
+    <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+      <h5 class="text-uppercase">Delyvery Andahuaylas</h5>
+      <p>
+          servicios de Delivery Andahuaylas, ofrece todo tipo de comidas, y 
+          de la mejor calidad, nuestro servicio es rápido y eficiente, tomando 
+          en cuenta los más altos estándares internacionales en cuanto a control 
+          de calidad de todos los productos que se ofrece y con el debido protocolo de seguridad.
+      </p>
+    </div>
+
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Nuestro Servicio</h5>
+
+                <ul class="list-unstyled mb-0">
+                <li>
+                <a href="Promociones.php" class="text-dark">Promociones</a>
+                </li>
+                <li>
+                <a href="nosotros.php" class="text-dark">Nosotros</a>
+                </li>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+         <h5 class="text-uppercase mb-0">encuentranos en:</h5>
+
+                <ul class="list-unstyled">
+                <li>
+                    <a href="https://web.facebook.com" class="text-dark">FACEBOOK</a>
+                </li>
+                <li>
+                    <a href="http://deliveryandahuaylas.rf.gd" class="text-dark">PÁGINA WEB</a>
+                </li>
+                </ul>
+      </div>
+     </div>
+   </div>
+   </footer>
 </body>
 
 </html>
