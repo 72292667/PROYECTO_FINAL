@@ -1,6 +1,3 @@
-
-
-
 <!DOCTYPE html>
 <html>
   <head>
@@ -148,18 +145,34 @@
     <div class="col-sm-3">
       <img src="../pagina/img/hambur1.jpg" class="img-responsive" style="width:100%" alt="Image">
       <li><a href="../pagina/pedido.php"><span class="glyphicon glyphicon-log-in"></span> Agregar</a></li>
+      <div class="carousel-caption">
+            <h3> S/. 10.00 </h3>
+            <p>Combo Personal + Gaseosa Personal<p>
+      </div>  
     </div>
     <div class="col-sm-3"> 
       <img src="../pagina/img/hambur2.jpg"class="img-responsive" style="width:100%" alt="Image">
-      <button type="button" class="btn btn-primary btn-lg">Agregar</button>  
+      <button type="button" class="btn btn-primary btn-lg">Agregar</button> 
+      <div class="carousel-caption">
+            <h3> S/. 30.00 </h3>
+            <p>Hamburguesa Clásica + Hamburguesa Royal + 3 Papas Fritas<p>
+      </div>  
     </div>
     <div class="col-sm-3">
       <img src="../pagina/img/hambur3.jpg" class="img-responsive" style="width:100%" alt="Image">
       <button type="button" class="btn btn-primary btn-lg">Agregar</button>
+      <div class="carousel-caption">
+            <h3> S/. 20.00 </h3>
+            <p>Combo Familiar + 2 Papas Fritas<p>
+      </div>  
     </div>
     <div class="col-sm-3">
       <img src="../pagina/img/hambur4.jpg" class="img-responsive" style="width:100%" alt="Image">
       <button type="button" class="btn btn-primary btn-lg">Agregar</button>
+      <div class="carousel-caption">
+            <h3> S/. 30.00 </h3>
+            <p>Combo Personal + solitario <p>
+      </div>  
     </div>
   </div>
 </div>
@@ -170,7 +183,11 @@
   <div class="row">
     <div class="col-sm-3">
       <img src="../pagina/img/pizza1.jpg" class="img-responsive" style="width:100%" alt="Image">
-      <li><a href="../pagina/pedido.php"><span class="glyphicon glyphicon-log-in"></span> Agregar</a></li>
+      <li><a href="../pagina/pedido.php"><span class="glyphicon glyphicon-log-in"></span> Agregar</a></li><br><br>
+      <div class="carousel-caption"> 
+            <h3> S/. 30.00 </h3>
+            <p>Combo Personal + solitario <p>
+      </div>  
     </div>
     <div class="col-sm-3"> 
       <img src="../pagina/img/pizza2.png"class="img-responsive" style="width:100%" alt="Image">
@@ -192,7 +209,7 @@
   <br>
   <div class="row">
     <div class="col-sm-3">
-      <img src="../pagina/img/chifa1.png" class="img-responsive" style="width:100%" alt="Image">
+      <img src="../pagina/img/chifa1.jpg" class="img-responsive" style="width:100%" alt="Image">
       <li><a href="../pagina/pedido.php"><span class="glyphicon glyphicon-log-in"></span> Agregar</a></li>
     </div>
     <div class="col-sm-3"> 
@@ -204,7 +221,7 @@
       <button type="button" class="btn btn-primary btn-lg">Agregar</button>
     </div>
     <div class="col-sm-3">
-      <img src="../pagina/img/chifa4.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <img src="../pagina/img/chifa4.png" class="img-responsive" style="width:100%" alt="Image">
       <button type="button" class="btn btn-primary btn-lg">Agregar</button>
     </div>
   </div>
