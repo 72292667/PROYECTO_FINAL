@@ -1,3 +1,10 @@
+<?php
+	session_start();
+	require_once '../database.php' 
+	$conexion = new mysqli($server, $username, $password, $database);
+
+?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -20,22 +27,22 @@
 		<br>
 		<label for="fecha">Fecha</label>
         <input type="date" name="fecha" placeholder="Fecha">
-		<input type="submit" class="btn" name="agregar" value="Registrar">
+		<input type="submit" class="btn" name="registro" value="Registrar">
 	</form>
 	</article>
 	</div>
 </body>
 </html>
 <?php
-    if(isset($_POST['agregar']))
+    if(isset($_POST['registro']))
     {
 		$dirreccion =$_POST["dirreccion"];
 		$cantidad =$_POST["cantidad"];
 		$fecha=$_POST["fecha"];
 
-		$insertarDatos = "INSERT INTO pedidos VALUES('', '$direccion', '$cantidad', '$fecha')
+		$insertarDatos = "INSERT INTO pedidos VALUES('', '$dirreccion', '$cantidad', '$fecha', '')"
 
-		$ejecutarInsertar = mysqli_query($enlace, $insertarDatos)";
+		$ejecutarInsertar = mysqli_query($conexion, $insertarDatos);
     
 
 		if(!$ejecutarInsertar){
