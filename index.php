@@ -32,7 +32,7 @@
       <br> Biembenido <?= $user['email']; ?>
       <br>Ha iniciado sesión correctamente
       <a href="logout.php">
-        Cerrar sesión
+        Cerrar sesión  
       </a>
     <?php else: ?>
       <h1> Por favor Inicie sesión o Registrese</h1>

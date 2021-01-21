@@ -146,54 +146,69 @@
   <br>
   <div class="row">
     <div class="col-sm-3">
-      <img src="../pagina/img/hamburguesa.png" class="img-responsive" style="width:100%" alt="Image">
+      <img src="../pagina/img/hambur1.jpg" class="img-responsive" style="width:100%" alt="Image">
       <li><a href="../pagina/pedido.php"><span class="glyphicon glyphicon-log-in"></span> Agregar</a></li>
     </div>
     <div class="col-sm-3"> 
-      <img src="../pagina/img/hamburguesa.png"class="img-responsive" style="width:100%" alt="Image">
+      <img src="../pagina/img/hambur2.jpg"class="img-responsive" style="width:100%" alt="Image">
       <button type="button" class="btn btn-primary btn-lg">Agregar</button>  
     </div>
     <div class="col-sm-3">
-      <img src="../pagina/img/hamburguesa.png" class="img-responsive" style="width:100%" alt="Image">
+      <img src="../pagina/img/hambur3.jpg" class="img-responsive" style="width:100%" alt="Image">
       <button type="button" class="btn btn-primary btn-lg">Agregar</button>
     </div>
     <div class="col-sm-3">
-      <img src="../pagina/img/hamburguesa.png" class="img-responsive" style="width:100%" alt="Image">
+      <img src="../pagina/img/hambur4.jpg" class="img-responsive" style="width:100%" alt="Image">
       <button type="button" class="btn btn-primary btn-lg">Agregar</button>
     </div>
   </div>
 </div>
 
 <div class="container text-center">    
-  <h1>Menu Pollos</h1>
+  <h1>Menu Pizza</h1>
   <br>
   <div class="row">
-    <div class="col-sm-2">
-      <img src="../pagina/img/pollo.jpg" class="img-responsive" style="width:100%" alt="Image">
-      <button type="button" class="btn btn-primary btn-lg">Agregar</button>
+    <div class="col-sm-3">
+      <img src="../pagina/img/pizza1.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <li><a href="../pagina/pedido.php"><span class="glyphicon glyphicon-log-in"></span> Agregar</a></li>
     </div>
-    <div class="col-sm-2"> 
-      <img src="../pagina/img/hamburguesa.png" class="img-responsive" style="width:100%" alt="Image">
+    <div class="col-sm-3"> 
+      <img src="../pagina/img/pizza2.png"class="img-responsive" style="width:100%" alt="Image">
       <button type="button" class="btn btn-primary btn-lg">Agregar</button>  
     </div>
-    <div class="col-sm-2"> 
-      <img src="../pagina/img/hamburguesa.png" class="img-responsive" style="width:100%" alt="Image">
+    <div class="col-sm-3">
+      <img src="../pagina/img/pizza3.png" class="img-responsive" style="width:100%" alt="Image">
       <button type="button" class="btn btn-primary btn-lg">Agregar</button>
     </div>
-    <div class="col-sm-2"> 
-      <img src="../pagina/img/hamburguesa.png" class="img-responsive" style="width:100%" alt="Image">
+    <div class="col-sm-3">
+      <img src="../pagina/img/pizza5.jpg" class="img-responsive" style="width:100%" alt="Image">
       <button type="button" class="btn btn-primary btn-lg">Agregar</button>
-    </div> 
-    <div class="col-sm-2"> 
-      <img src="../pagina/img/hamburguesa.png" class="img-responsive" style="width:100%" alt="Image">
-      <button type="button" class="btn btn-primary btn-lg">Agregar</button>
-    </div>     
-    <div class="col-sm-2"> 
-      <img src="../pagina/img/hamburguesa.png" class="img-responsive" style="width:100%" alt="Image">
-      <button type="button" class="btn btn-primary btn-lg">Agregar</button>
-    </div> 
+    </div>
   </div>
-</div><br>
+</div>
+
+<div class="container text-center">    
+  <h1>Menu Chifa</h1>
+  <br>
+  <div class="row">
+    <div class="col-sm-3">
+      <img src="../pagina/img/chifa1.png" class="img-responsive" style="width:100%" alt="Image">
+      <li><a href="../pagina/pedido.php"><span class="glyphicon glyphicon-log-in"></span> Agregar</a></li>
+    </div>
+    <div class="col-sm-3"> 
+      <img src="../pagina/img/chifa2.jpg"class="img-responsive" style="width:100%" alt="Image">
+      <button type="button" class="btn btn-primary btn-lg">Agregar</button>  
+    </div>
+    <div class="col-sm-3">
+      <img src="../pagina/img/chifa3.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <button type="button" class="btn btn-primary btn-lg">Agregar</button>
+    </div>
+    <div class="col-sm-3">
+      <img src="../pagina/img/chifa4.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <button type="button" class="btn btn-primary btn-lg">Agregar</button>
+    </div>
+  </div>
+</div>
 
 <footer class="bg-light text-center text-lg-start">
 
