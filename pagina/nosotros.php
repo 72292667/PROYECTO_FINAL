@@ -17,7 +17,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="header.php">COOKING</a>
+      <a class="navbar-brand" href="header.php">Delivery Andahuylas</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
@@ -68,7 +68,7 @@
   </div>
   <div class="row">
     <div class="col-sm-3">
-      <img src="../pagina/img/logo.png" class="img-responsive" style="width:100%" alt="Image"><br><br>
+      <img src="../pagina/img/logo.png" class="img-responsive" style="width:1000px" alt="Image"><br><br>
   </div>
   
 </div><br><br>

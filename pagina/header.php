@@ -37,7 +37,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="header.php">DELIVERY ANDAHUYLAS</a>
+      <a class="navbar-brand" href="header.php">Delivery Andahuylas</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
@@ -191,14 +191,26 @@
     <div class="col-sm-3"> 
       <img src="../pagina/img/pizza2.png"class="img-responsive" style="width:100%" alt="Image">
       <button type="button" class="btn btn-primary btn-lg">Agregar</button>  
+      <div class="carousel-caption"> 
+            <h3> S/. 30.00 </h3>
+            <p>Combo Personal + solitario <p>
+      </div>  
     </div>
     <div class="col-sm-3">
       <img src="../pagina/img/pizza3.png" class="img-responsive" style="width:100%" alt="Image">
       <button type="button" class="btn btn-primary btn-lg">Agregar</button>
+      <div class="carousel-caption"> 
+            <h3> S/. 30.00 </h3>
+            <p>Combo Personal + solitario <p>
+      </div>  
     </div>
     <div class="col-sm-3">
       <img src="../pagina/img/pizza5.jpg" class="img-responsive" style="width:100%" alt="Image">
       <button type="button" class="btn btn-primary btn-lg">Agregar</button>
+      <div class="carousel-caption"> 
+            <h3> S/. 30.00 </h3>
+            <p>Combo Personal + solitario <p>
+      </div>  
     </div>
   </div>
 </div>
@@ -210,18 +222,34 @@
     <div class="col-sm-3">
       <img src="../pagina/img/chifa1.jpg" class="img-responsive" style="width:100%" alt="Image">
       <li><a href="../pagina/pedido.php"><span class="glyphicon glyphicon-log-in"></span> Agregar</a></li>
+      <div class="carousel-caption"> 
+            <h3> S/. 30.00 </h3>
+            <p>Combo Personal + solitario <p>
+      </div>  
     </div>
     <div class="col-sm-3"> 
       <img src="../pagina/img/chifa2.jpg"class="img-responsive" style="width:100%" alt="Image">
       <button type="button" class="btn btn-primary btn-lg">Agregar</button>  
+      <div class="carousel-caption"> 
+            <h3> S/. 30.00 </h3>
+            <p>Combo Personal + solitario <p>
+      </div>  
     </div>
     <div class="col-sm-3">
       <img src="../pagina/img/chifa3.jpg" class="img-responsive" style="width:100%" alt="Image">
       <button type="button" class="btn btn-primary btn-lg">Agregar</button>
+      <div class="carousel-caption"> 
+            <h3> S/. 30.00 </h3>
+            <p>Combo Personal + solitario <p>
+      </div>  
     </div>
     <div class="col-sm-3">
       <img src="../pagina/img/chifa4.png" class="img-responsive" style="width:100%" alt="Image">
       <button type="button" class="btn btn-primary btn-lg">Agregar</button>
+      <div class="carousel-caption"> 
+            <h3> S/. 30.00 </h3>
+            <p>Combo Personal + solitario <p>
+      </div>  
     </div>
   </div>
 </div>
