@@ -32,6 +32,49 @@
   </div>
 </nav>
 
+<div class="container text-center">    
+  <h1>Nosotros</h1>
+    <p>
+      Nuestra experiencia y personal nos respalda. Nuestros 
+      clientes estan satisfechos después de trabajar para ellos 
+      y ver lo que podemos lograr. 
+    </p>
+  <br>
+  <h3>Nuestro personal</h3>
+  <br>
+  <div class="row">
+    <div class="col-sm-3">
+      <img src="../pagina/img/thomy.jpg" class="img-responsive" style="width:100%" alt="Image"><br><br>
+      <div class="carousel-caption">
+            <h3> Tomas Casa Zuñiga </h3>
+      </div> 
+    </div>
+    <div class="col-sm-4">
+    <div class="well">
+      <p>TOMAS CASA ZUÑIGA <br>
+       Gerente General 
+      </p>
+    </div>
+    <div class="well">
+      <p>JUAN QUISPE MAMANI<br>
+       Administrador 
+      </p>
+    </div>
+    <div class="well">
+      <p>DAVID ASTUWILLCA RAMOS <br>
+       Vendedor 
+      </p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-3">
+      <img src="../pagina/img/logo.png" class="img-responsive" style="width:100%" alt="Image"><br><br>
+  </div>
+  
+</div><br><br>
+
+
+
 <footer class="bg-light text-center text-lg-start">
 
 <div class="container p-4">
