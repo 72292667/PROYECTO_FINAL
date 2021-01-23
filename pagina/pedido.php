@@ -21,19 +21,19 @@
 
             if(!empty($_POST['direccion']) && !empty($_POST['cantidad']))
             {
-                $id_ped =  $_POST['id_ped'];
                 $direccion = mysql_fix_string($conexion, $_POST['direccion']);
                 $cantidad = mysql_fix_string($conexion, $_POST['cantidad']);
                 $fecha = mysql_fix_string($conexion, $_POST['fecha']);
                 
 
 
-                $query = "INSERT INTO pedidos ( id_ped , direccion, cantidad, fecha, id_usu) VALUES ('$id_ped', '$direccion', '$cantidad', '$fecha', '$r0')";
+                $query = "INSERT INTO pedidos (id_ped, direccion, cantidad, fecha, id_usu) VALUE ('', '$direccion', '$cantidad', '$fecha', '$r0')";
 
                 $result = $conexion->query($query);
                 if ($conexion->connect_error) die ("Fatal error");
                 header('location:pedido.php');
                 if (!$result) echo "INSERT falló <br><br>";
+                echo "registro exitoso"; 
             }
             
             function mysql_fix_string($coneccion, $string)
