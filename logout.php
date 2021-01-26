@@ -5,5 +5,5 @@
 
   session_destroy();
 
-  header('Location: /pagina/header.php');
+  header('Location: ../pagina');
 ?>
