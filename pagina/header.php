@@ -42,8 +42,8 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li class="active"><a href="header.php">Menu</a></li>
-        <li><a href="promociones.php">Promociones</a></li>
-        <li><a href="nosotros.php">Nosotros</a></li>
+        <li><a href="promociones.html">Promociones</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="salir.php"><span class="glyphicon glyphicon-log-in"></span> Salir</a></li>
@@ -143,7 +143,7 @@
   <div class="row">
     <div class="col-sm-3">
       <img src="../pagina/img/hambur1.jpg" class="img-responsive" style="width:100%" alt="Image">
-      <li><a href="../pagina/pedido.php"><span class="glyphicon glyphicon-log-in"></span> Agregar</a></li>
+      <li><a href="../pagina/pedido.php">  <span class="glyphicon glyphicon-log-in"></span> Agregar</a></li>
       <div class="carousel-caption">
             <h3> S/. 10.00 </h3>
             <p>Combo Personal + Gaseosa Personal<p>
@@ -275,10 +275,10 @@
 
                 <ul class="list-unstyled mb-0">
                 <li>
-                <a href="Promociones.php" class="text-dark">Promociones</a>
+                <a href="Promociones.html" class="text-dark">Promociones</a>
                 </li>
                 <li>
-                <a href="nosotros.php" class="text-dark">Nosotros</a>
+                <a href="nosotros.html" class="text-dark">Nosotros</a>
                 </li>
         </div>
 
