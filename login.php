@@ -2,8 +2,8 @@
 
   session_start();
 
-  if (isset($_SESSION['user_id'])) {
-    header('Location: pagina/header.html');
+  if (isset($_SESSION['Usuario'])) {
+    header('Location: pagina/cliente.php');
   }
   require 'database.php';
 
@@ -16,8 +16,8 @@
     $message = '';
 
     if (count($results) > 0 && password_verify($_POST['password'], $results['password'])) {
-      $_SESSION['id_usu'] = $results['id_usu'];
-      header("Location: pagina/header.html");
+      $_SESSION['Usuario'] = $results['Usuario'];
+      header("Location: pagina/cliente.php");
     } else {
       $message = 'Lo siento, esas credenciales no coinciden';
     }

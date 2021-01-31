@@ -62,7 +62,7 @@
 
       
   if (!empty($_POST['nombre']) && !empty($_POST['apellidos']) && !empty($_POST['direccion']) && !empty($_POST['celular'])) {
-    $sql = "INSERT INTO cliente (id_cli, nombre, apellidos, direccion, celular, id_usu ) VALUES (:id_cli, :nombre, :apellidos, :direccion, :celular, '$rows' )";
+    $sql = "INSERT INTO cliente (id_cli, nombre, apellidos, direccion, celular, id_usu ) VALUES (:id_cli, :nombre, :apellidos, :direccion, :celular, null )";
     $stmt = $conn->prepare($sql);
     $stmt->bindParam(':id_cli', $_POST['id_cli']);
     $stmt->bindParam(':nombre', $_POST['nombre']);

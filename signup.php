@@ -5,11 +5,10 @@
   $message = '';
 
   if (!empty($_POST['email']) && !empty($_POST['password'])) {
-    $sql = "INSERT INTO usuario (id_usu, nombre, apellidos, email, password) VALUES (:id_usu, :nombre, :apellidos, :email, :password)";
+    $sql = "INSERT INTO usuario (id_usu, nombres, email, password ) VALUES (:id_usu, :nombres,  :email, :password)";
     $stmt = $conn->prepare($sql);
     $stmt->bindParam(':id_usu', $_POST['id_usu']);
-    $stmt->bindParam(':nombre', $_POST['nombre']);
-    $stmt->bindParam(':apellidos', $_POST['apellidos']);
+    $stmt->bindParam(':nombres', $_POST['nombres']);
     $stmt->bindParam(':email', $_POST['email']);
     $password = password_hash($_POST['password'], PASSWORD_BCRYPT);
     $stmt->bindParam(':password', $password);
@@ -41,8 +40,7 @@
     <span><a href="login.php"> Iniciar sesión</a></span>
 
     <form action="signup.php" method="POST">
-      <input name="nombre" type="text" placeholder="Ingrese su nombre">
-      <input name="apellidos" type="text" placeholder="Ingrese su apellido">
+      <input name="nombres" type="text" placeholder="Ingrese su nombre">
       <input name="email" type="text" placeholder="Ingrese su  email">
       <input name="password" type="password" placeholder="Ingrese su  Password">
       <input name="confirm_password" type="password" placeholder="Confirme Password">
