@@ -3,9 +3,9 @@
 
   require 'database.php';
 
-  if (isset($_SESSION['Usuario'])) {
+  if (isset($_SESSION['id_usu'])) {
     $records = $conn->prepare('SELECT id_usu, email, password FROM usuario WHERE id_usu= :id');
-    $records->bindParam(':id', $_SESSION['Usuario']);
+    $records->bindParam(':id', $_SESSION['id_usu']);
     $records->execute();
     $results = $records->fetch(PDO::FETCH_ASSOC);
 
@@ -26,12 +26,11 @@
     <link rel="stylesheet" href="estilo/css/style.css">
   </head>
   <body>
-    <?php require 'pagina/frase.php' ?>
 
     <?php if(!empty($user)): ?>
-      <br> Biemvenido <?= $user['email']; ?>
+      <br> Biembenido <?= $user['email']; ?>
       <br>Ha iniciado sesión correctamente
-      <a href="../salir.php">
+      <a href="logut.php">
         Cerrar sesión  
       </a>
     <?php else: ?>

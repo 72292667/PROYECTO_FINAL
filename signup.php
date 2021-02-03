@@ -15,6 +15,7 @@
 
     if ($stmt->execute()) {
       $message = ' Nuevo usuario creado con éxito';
+      header("Location: pagina/cliente.php");
     } else {
       $message = 'Lo sentimos, debe haber un problema al crear su cuenta';
     }
@@ -30,14 +31,12 @@
   </head>
   <body>
 
-    <?php require 'pagina/frase.php' ?>
 
     <?php if(!empty($message)): ?>
       <p> <?= $message ?></p>
     <?php endif; ?>
 
     <h1> Regístrate</h1>
-    <span><a href="login.php"> Iniciar sesión</a></span>
 
     <form action="signup.php" method="POST">
       <input name="nombres" type="text" placeholder="Ingrese su nombre">

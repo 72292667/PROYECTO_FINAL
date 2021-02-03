@@ -4,16 +4,9 @@
   $conexion = new mysqli($server, $username, $password, $database);
 
 
-  $user = $_SESSION['Usuario'];
-  $query = "SELECT * FROM usuario WHERE id_usu = '$user'";
-  $result = $conexion->query($query);
-  if (!$result) die ("Falló el acceso a la base de datos"); 
-  
-  $rows = $result->num_rows;
-
-      
+     
   if (!empty($_POST['nombre']) && !empty($_POST['apellidos']) && !empty($_POST['direccion']) && !empty($_POST['celular'])) {
-    $sql = "INSERT INTO cliente (id_cli, nombre, apellidos, direccion, celular, id_usu ) VALUES (:id_cli, :nombre, :apellidos, :direccion, :celular, null )";
+    $sql = "INSERT INTO cliente (id_cli, nombre, apellidos, direccion, celular, id_usu ) VALUES (:id_cli, :nombre, :apellidos, :direccion, :celular, null)";
     $stmt = $conn->prepare($sql);
     $stmt->bindParam(':id_cli', $_POST['id_cli']);
     $stmt->bindParam(':nombre', $_POST['nombre']);
@@ -69,16 +62,16 @@
 
     <div class="image-fondo cabecera">
       <br>
-    <h1> CONFIRMA TU DIRRECCIÓN DE ENTREGA</h1><br>
+     <h1> CONFIRMA TU DIRRECCIÓN DE ENTREGA</h1><br>
 
-    <form action="cliente.php" method="POST">
+     <form action="cliente.php" method="POST">
       <input name="nombre" type="text" placeholder="Ingrese su Nombre">
       <input name="apellidos" type="text" placeholder="Ingrese su Apellidos">
       <input name="direccion" type="text" placeholder="Ingrese su Dirección">
       <input name="celular" type="text" placeholder="Número Celular">
 
       <input type="submit" value="CONFIRMAR" type="color">
-    </form><br>   
+     </form><br>   
 
     </div>
 
@@ -125,7 +118,7 @@
             </div>
 
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-         <h4 class="text-uppercase mb-0">encuentranos en:</h4>
+         <h4 class="text-uppercase mb-0">Encuentranos en:</h4>
 
                 <ul class="list-unstyled">
                 <li>
