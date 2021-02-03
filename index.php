@@ -9,7 +9,7 @@
     $records->execute();
     $results = $records->fetch(PDO::FETCH_ASSOC);
 
-    $user = null;
+    $user = $results;
 
     if (count($results) > 0) {
       $user = $results;
@@ -26,18 +26,30 @@
     <link rel="stylesheet" href="estilo/css/style.css">
   </head>
   <body>
-
-    <?php if(!empty($user)): ?>
-      <br> Biembenido <?= $user['email']; ?>
-      <br>Ha iniciado sesión correctamente
-      <a href="logut.php">
-        Cerrar sesión  
-      </a>
-    <?php else: ?>
+    <div class="image-fondo cabecera">
+      <br>
       <h1> Por favor Inicie sesión o Registrese</h1>
 
-      <a href="login.php">Iniciar sesión</a> O
-      <a href="signup.php">Registrarse</a>
-    <?php endif; ?>
+     <a href="login.php"><h2>Iniciar sesión</h2></a> O
+     <a href="signup.php"><h2>Registrarse</h2></a>
+     <img src="pagina/img/logo.png" class="img-responsive" style="width:200px" alt="Image"><br><br>
+
+    </div>
+
+       <style>
+          .image-fondo {
+          background-image: url("pagina/img/fondoindex.jpg");
+          background-size: cover;
+          color: #AD1C9F;
+        }
+
+        .cabecera{
+        color: #9B0E1D;
+        height: 600px;
+        line-height: 50px;
+        text-align: center;
+        vertical-align: middle;
+        }
+      </style>
   </body>
 </html>

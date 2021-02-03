@@ -32,11 +32,13 @@
   <body>
 
 
-    <?php if(!empty($message)): ?>
-      <p> <?= $message ?></p>
-    <?php endif; ?>
+  <?php if(!empty($message)): ?>
+        <p> <?= $message ?></p>
+     <?php endif; ?>
 
-    <h1> Regístrate</h1>
+    <div class="image-fondo cabecera">
+      <br>
+      <h1> Regístrate</h1>
 
     <form action="signup.php" method="POST">
       <input name="nombres" type="text" placeholder="Ingrese su nombre">
@@ -44,7 +46,28 @@
       <input name="password" type="password" placeholder="Ingrese su  Password">
       <input name="confirm_password" type="password" placeholder="Confirme Password">
       <input type="submit" value="ENVIAR">
-    </form>
+    </form> 
+    
+    </div>
+
+    <style>
+            .image-fondo {
+              background-image: url("pagina/img/fondo.jpg");
+              background-size: cover;
+              color: #0A0909;
+          }
+
+          .cabecera{
+            color: #9B0E1D;
+            height: 600px;
+            line-height: 50px;
+            text-align: center;
+            vertical-align: middle;
+            text-shadow: #111 0px 0px 10px;
+          }
+    </style>
+
+  
 
   </body>
 </html>

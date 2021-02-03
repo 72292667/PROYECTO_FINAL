@@ -16,10 +16,8 @@
   
     if ($stmt->execute()) {
            
-      $message = 'se registro correctamente';
-      header("Location: ../pagina/header.html");
     } else {
-      $message = 'Lo sentimos, sus datos no fueron registrados';
+      $message = 'Lo sentimos, su Pedido no fue registrado';
     }
   }
 
@@ -59,15 +57,16 @@
   </nav>
 
   <?php if(!empty($message)): ?>
-      <p> <?= $message ?></p>
+      <p> <?= $message = "hola" ?></p>
     <?php endif; ?>
     <div class="image-fondo cabecera"><br>
-    <h1> Regístro del Pedido</h1>
+    <h1> REGÍSTRE SU PEDIDO</h1>
     	<form method="post" action="pedido.php">
           <input name="cantidad" type="number" min="1" placeholder="Cantidad a Pedir">
           <input name="fecha" type="date" placeholder="Ingrese la fecha">
-          <input type="submit" value="Agregar">
-		  </form>  
+          <input type="submit"  value="Agregar">
+      </form>  
+     
 
     </div>
 
