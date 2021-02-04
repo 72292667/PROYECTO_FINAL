@@ -1,12 +1,4 @@
-/* General */
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Roboto', sans-serif;
-  text-align: center;
-}
 
-/* Input Forms*/
 input[type="text"], input[type="password"]{
   outline: none;
   padding: 20px;
@@ -32,7 +24,7 @@ input[type="submit"]:hover {
   background-color: #00b8eb;
 }
 
-/* Header */
+/* principal */
 header {
   border-bottom: 2px solid #eee;
   padding: 20px 0;
@@ -43,4 +35,19 @@ header {
 header a {
   text-decoration: none;
   color: #333;
+}
+
+body.image-fondo {
+  background-image: url("pagina/img/fondo.jpg");
+  background-size: cover;
+  color: #0A0909;
+}
+
+body.cabecera{
+color: #9B0E1D;
+height: 400px;
+line-height: 50px;
+text-align: center;
+vertical-align: middle;
+text-shadow: rgb(192, 21, 21) 0px 0px 10px;
 }
