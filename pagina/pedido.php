@@ -15,7 +15,8 @@
     
   
     if ($stmt->execute()) {
-           
+           $message = 'Su pedido fue registrado con exito';
+      	header("Location: ../pagina/header.html");
     } else {
       $message = 'Lo sentimos, su Pedido no fue registrado';
     }
